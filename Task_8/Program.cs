@@ -10,7 +10,7 @@ Console.WriteLine("Enter ANY number you want, I'll name it N!");
 int N = Convert.ToInt32(System.Console.ReadLine());
 int count = 1;
 Console.WriteLine("Your EVEN numbers from 1 to N will be:");
-while (count < N)
+while (count <= N)
 {
     if (count % 2 == 0)
     {
